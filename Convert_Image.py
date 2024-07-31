@@ -1,6 +1,6 @@
 from PIL import Image
 # Load the image
-image = Image.open(r"download.png")
+image = Image.open(r"image/path")
 # Resize the image to 50x50
 image = image.resize((50, 50))
 # Convert image to RGB mode (if not already in RGB)
