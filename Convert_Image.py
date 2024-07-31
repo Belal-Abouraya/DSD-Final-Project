@@ -26,8 +26,8 @@ lines_to_write = []
 
 # convert each two pixels to 3 bytes
 for i in range(0, len(lines), 2):
-    line1 = format(lines[i], '012b')#lines[i].strip()
-    line2 = format(lines[i], '012b')#lines[i + 1].strip()
+    line1 = format(lines[i], '012b')
+    line2 = format(lines[i], '012b')
     while(len(line1) < 12):
         line1 = "0" + line1
     while(len(line2) < 12):
