@@ -20,7 +20,7 @@ The system comprises four main components:
 
 ## Repository Contents
 
-This repository includes all the essential files for each component, along with comprehensive test benches that were used throughout the project for validation and verification.
+This repository includes all the essential files for each component, the constraint files for each FPGA, and comprehensive test benches used throughout the project for validation and verification.
 
 ## Demonstration
 
